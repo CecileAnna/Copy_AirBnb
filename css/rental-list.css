@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column nowrap;
 }
+
+
+/* card */
+
+.Rental-card {
+    display: flex;
+    flex-direction: row;
+    grid-area: 1 / 1 / span 5 / span 2;
+}
