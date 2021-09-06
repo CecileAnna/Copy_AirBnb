@@ -2,12 +2,16 @@
 <html lang="da">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falsk AirBnb</title>
     <script src="https://kit.fontawesome.com/8a29176b8f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main-style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/rental-list.css">
+    <link rel="stylesheet" href="./css/map.css">
 
 </head>
 
@@ -26,16 +30,25 @@
 
                 </div>
 
-                <div class="Search-wrapper">
+                <div class="Search__wrapper">
 
-                    <p class="Search-wrapper__location">Kortområde</p>
-                    <p class="Search-wrapper__dates">22.sep.-26.sep.</p>
-                    <p class="Search-wrapper__dguests">1 gæst</p>
+                    <p class="Search__location">Kortområde</p>
+                    <p class="Search__dates">22.sep.-26.sep.</p>
+                    <p class="Search__guests">1 gæst</p>
                     <i class="fas fa-search"></i>
 
                 </div>
 
-                <div class="Main-header__user-info-wrapper">
+                <div class="User-info__wrapper">
+
+                    <button class="User-info__become-host">Bliv vært</button>
+
+                    <i class="fas fa-globe"></i>
+
+                    <button class="User-info__user-options">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-user"></i>
+                    </button>
 
                 </div>
 
@@ -43,7 +56,23 @@
 
             <section class="Rental-listings">
 
-                <article class="Rental-listings__search-details">
+                <article class="Rental-listings__search-intro">
+                    <h3 class="Rental-listings__date-and-guests">22.sep.-26.sep. · 1 gæst</h3>
+                    <h2 class="Rental-listings__title">Ophold i det valgte kortområde</h2>
+
+                    <div class="Rental-listings__filters">
+
+                        <button class="Rental-listings__filter-btn">Gratis annullering</button>
+                        <button class="Rental-listings__filter-btn">Boligtype</button>
+                        <button class="Rental-listings__filter-btn">OP til 250 DKK</button>
+                        <button class="Rental-listings__filter-btn">Øjeblikkelig booking</button>
+                        <button class="Rental-listings__filter-btn">Flere filtre</button>
+
+                    </div>
+
+                    <p class="Rental-listings__covid-info">Gennemgå rejserestriktioner i forbindelse med COVID-19, inden du booker.Få mere at vide</p>
+
+                    <button class="Rental-listings__language-settings-btn">Gratis annullering</button>
 
                 </article>
 
@@ -79,13 +108,32 @@
 
             <aside class="Map">
                 <iframe class="Map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144005.6547253526!2d11.941221275875654!3d55.67006369640705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525fc995012f29%3A0xa00afcc1d507710!2s4000%20Roskilde!5e0!3m2!1sda!2sdk!4v1630915476725!5m2!1sda!2sdk"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                
+                    <div class="Map-menu">
+
+                        <button class="Map-menu__btn-left">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+
+                        <button class="btn-search-map">
+                            <input type="Map-menu__checkbox">
+                            Søg, når jeg bevæger kortet
+                        </button>
+
+                        <button class="Map-menu__btn-zooms">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+
+                    </div>
+                </iframe>
             </aside>
 
         </div>
 
     </main>
-
+    <script src="./js/handle-card-production.js"></script>
 </body>
 
 </html>
