@@ -1,3 +1,54 @@
 .Main-header {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    grid-area: 1 / 1 / 2 / end;
+    box-shadow: 0.3rem 0.2rem 0.3rem rgba(245, 243, 243, 0.788);
+}
+
+
+/* header wrappers layout*/
+
+
+/* logo */
+
+.Main-header__logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.Main-header__logo-h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF385C;
+    text-transform: lowercase;
+    font-size: 1.2rem;
+}
+
+.Main-header__logo-icon {
+    color: #FF385C;
+    font-size: 2rem;
+}
+
+
+/* search */
+
+.Search__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+
+/* user info */
+
+.User-info__wrapper {
+    display: flex;
+    gap: 0.2rem;
 }

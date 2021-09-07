@@ -4,9 +4,32 @@
     box-sizing: border-box;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
 
 /* main grid */
 
 .Grid-wrapper {
     display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 5fr;
+}
+
+
+/* utility classes */
+
+._font-weight-bold {
+    font-weight: bold;
+}
+
+._font-size-large {
+    font-size: large;
 }

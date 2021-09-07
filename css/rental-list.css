@@ -1,13 +1,107 @@
-.Rental-listings__card-container {
-    display: flex;
-    flex-direction: column nowrap;
+.Rental-listings {
+    grid-area: 2 / 1 / end / span 3;
+}
+
+
+/* search intro */
+
+.Rental-listings__search-intro {
+    padding: 2rem 1.5rem;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 
 /* card */
 
+.Rental-listings__card-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin: 0.5rem 1rem;
+}
+
+.Rental-card__horizontal-line {
+    border: 0.03rem solid rgba(128, 128, 128, 0.801);
+    margin: 0 100%;
+}
+
 .Rental-card {
     display: flex;
     flex-direction: row;
-    grid-area: 1 / 1 / span 5 / span 2;
+    width: 100%;
+    height: 35vh;
+    gap: 0.5rem;
+}
+
+.Rental-card__img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+.Rental-card__article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 0.5rem;
+}
+
+.Rental-card__titles-wrapper {
+    line-height: 1.6;
+}
+
+.Rental-card__pre-title {
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.Rental-card__title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Rental-card__info {
+    color: rgb(150, 148, 148);
+    line-height: 1.25;
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+.Rental-card__heart-icon {
+    float: right;
+}
+
+.Rental-card__horizontal-line_short {
+    border: 0.03rem solid rgba(128, 128, 128, 0.801);
+    width: 20%;
+}
+
+.reviews-and-price-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.Rental-card__reviews-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    font-size: smaller;
+}
+
+.Rental-card__star {
+    color: #FF385C;
+}
+
+.Rental-card__price-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+}
+
+.Rental-card__price-daily {
+    font-size: 1rem;
 }
