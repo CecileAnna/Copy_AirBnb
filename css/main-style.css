@@ -19,8 +19,7 @@ p {
 
 .Grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 5fr;
+    grid-template: 1fr 16fr / repeat(8, 1fr);
 }
 
 
@@ -32,4 +31,12 @@ p {
 
 ._font-size-large {
     font-size: large;
+}
+
+._btn--round-white {
+    border-radius: 15px;
+    padding: 0.4rem 0.6rem;
+    background-color: white;
+    color: grey;
+    border: 1.5px solid grey;
 }
