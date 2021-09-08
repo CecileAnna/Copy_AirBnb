@@ -1,3 +1,97 @@
 .Listing-meet-host {
-    grid-area: 4 / 1 / 5 / end;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    height: 30vh;
+}
+
+.Listing-meet-host__article {
+    width: 50%;
+}
+
+.Listing-meet-host__profile-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    height: 25vh;
+    justify-content: left;
+    padding: 1rem 0;
+    text-align: left;
+    width: 70%;
+}
+
+.Listing-meet-host__profile-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.Listing-meet-host__host-name {
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin: 0 0 1rem 0;
+}
+
+.Listing-meet-host__host-member-since {
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: lighter;
+}
+
+.Listing-meet-host__profile-details-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.Listing-meet-host__profile-details-icon {
+    color: #FF385C;
+    font-size: 0.9rem;
+}
+
+.Listing-meet-host__profile-details-text {
+    font-size: 0.9rem;
+}
+
+.Listing-meet-host__profile-text {
+    line-height: 1.5;
+    font-size: 0.9rem;
+    margin: 0 0 2rem 0;
+}
+
+.Listing-meet-host__profile-text-read-more {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Listing-meet-host__info {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.Listing-meet-host__info-ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.6rem;
+    font-family: helvetica;
+    font-size: 0.9rem;
+    margin: 8rem 0 1rem 0;
+    color: rgb(61, 60, 60);
+}
+
+.Listing-meet-host__info-contact-btn {
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: black;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 0.8rem 1rem;
+    margin: 0 0 3rem 0;
 }

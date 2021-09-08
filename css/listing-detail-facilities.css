@@ -1,4 +1,42 @@
 .Listing-facilities {
-    grid-area: 3 / 1 / 4 / end;
     margin: 3rem 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: left;
+    gap: 2rem;
+}
+
+.Listing-facilities_h2 {
+    font-size: 1.15rem;
+    font-weight: 550;
+}
+
+.Listing-facilities_facility-ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    height: 35vh;
+    gap: 1rem;
+    color: rgb(56, 55, 55);
+}
+
+.Listing-facilities_facility-li {
+    font-weight: lighter;
+    font-family: helvetica;
+    display: flex;
+    gap: 1rem;
+}
+
+.Listing-facilities_facility-icon {
+    font-size: 1.5rem;
+    font-weight: thin;
+}
+
+.Listing-facilities__show-all-btn {
+    padding: 1rem;
+    width: fit-content;
+    color: black;
+    font-weight: 550;
 }

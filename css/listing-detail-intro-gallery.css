@@ -4,8 +4,8 @@
     width: 100%;
     height: 20vh;
     gap: 0.5rem;
-    grid-area: 2 / 1 / 3 / end;
-    margin: 0 0 3rem 0;
+    /* uhensigtsmæssigt hurtigt fiks til at de andre sections overlappede med mit galleri... */
+    margin: 0 0 35rem 0;
 }
 
 .Listing-detail-gallery__img {

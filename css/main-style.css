@@ -22,10 +22,12 @@ p {
     grid-template: 1fr 16fr / repeat(8, 1fr);
 }
 
-.Grid-wrapper-details {
-    display: grid;
-    grid-template-rows: 20vh 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
+.Flex-wrapper-details {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 
@@ -49,4 +51,10 @@ p {
 
 ._center-content {
     margin: 0 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.__horizontal-line {
+    border: 0.03rem solid rgba(128, 128, 128, 0.4);
 }
