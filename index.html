@@ -1,320 +1,322 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Falsk AirBnb</title>
-    <script src="https://kit.fontawesome.com/8a29176b8f.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main-style.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/rental-list.css">
-    <link rel="stylesheet" href="./css/map.css">
+    <script
+      src="https://kit.fontawesome.com/8a29176b8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main-style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/rental-list.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <main>
+      <div class="Grid-wrapper">
+        <header class="Main-header">
+          <div class="Main-header__logo-wrapper">
+            <i class="fab fa-airbnb Main-header__logo-icon"></i>
+            <h1 class="Main-header__logo-h1">AirBnb</h1>
+          </div>
 
-        <div class="Grid-wrapper">
+          <div class="Search__wrapper">
+            <p class="Search__location">Kortområde |</p>
+            <p class="Search__dates">22.sep.-26.sep. |</p>
+            <p class="Search__guests">1 gæst</p>
+            <i class="fas fa-search Search__icon"></i>
+          </div>
 
-            <header class="Main-header">
+          <div class="User-info__wrapper">
+            <button class="User-info__become-host">Bliv vært</button>
 
-                <div class="Main-header__logo-wrapper">
+            <i class="fas fa-globe User-info__globe-icon"></i>
 
-                    <i class="fab fa-airbnb Main-header__logo-icon"></i>
-                    <h1 class="Main-header__logo-h1">AirBnb</h1>
+            <button class="User-info__user-options _btn--round-white">
+              <i class="fas fa-bars"></i>
+              <i class="fas fa-user User-info__user-icon"></i>
+            </button>
+          </div>
+        </header>
 
+        <section class="Rental-listings">
+          <article class="Rental-listings__search-intro"></article>
+
+          <div class="Rental-listings__card-container">
+            <hr class="Rental-card__horizontal-line" />
+
+            <section class="Rental-card">
+              <img
+                class="Rental-card__img"
+                src="https://picsum.photos/600/400"
+                alt="Rental photos"
+                class="Rental-card__img"
+              />
+
+              <article class="Rental-card__article">
+                <div class="Rental-card__titles-wrapper">
+                  <h3 class="Rental-card__pre-title">
+                    Privat værelse i Schnelsen
+                  </h3>
+                  <i class="far fa-heart Rental-card__heart-icon"></i>
+                  <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
+
+                  <hr class="Rental-card__horizontal-line_short" />
+
+                  <p class="Rental-card__info">
+                    1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse
+                  </p>
                 </div>
 
-                <div class="Search__wrapper">
+                <div class="reviews-and-price-wrapper">
+                  <div class="Rental-card__reviews-wrapper">
+                    <i class="fas fa-star Rental-card__star"></i>
+                    <p class="Rental-card__reviews-p">
+                      <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
+                    </p>
+                  </div>
 
-                    <p class="Search__location">Kortområde |</p>
-                    <p class="Search__dates">22.sep.-26.sep. |</p>
-                    <p class="Search__guests">1 gæst</p>
-                    <i class="fas fa-search Search__icon"></i>
-
+                  <div class="Rental-card__price-wrapper">
+                    <h2 class="Rental-card__price-daily">
+                      <span class="_font-weight-bold _font-size-large"
+                        >202 DKK</span
+                      >
+                      / nat
+                    </h2>
+                    <p class="Rental-card__price-total"></p>
+                  </div>
                 </div>
-
-                <div class="User-info__wrapper">
-
-                    <button class="User-info__become-host">Bliv vært</button>
-
-                    <i class="fas fa-globe User-info__globe-icon"></i>
-
-                    <button class="User-info__user-options _btn--round-white">
-                        <i class="fas fa-bars"></i>
-                        <i class="fas fa-user User-info__user-icon"></i>
-                    </button>
-
-                </div>
-
-            </header>
-
-            <section class="Rental-listings">
-
-                <article class="Rental-listings__search-intro">
-                    <h3 class="Rental-listings__date-and-guests">71 · ophold 22.sep. - 26.sep. · 1 gæst</h3>
-                    <h2 class="Rental-listings__search-title">Ophold i det valgte kortområde</h2>
-
-                    <div class="Rental-listings__filters">
-
-                        <button class="Rental-listings__filter-btn _btn--round-white">Gratis annullering</button>
-                        <button class="Rental-listings__filter-btn _btn--round-white">Boligtype</button>
-                        <button class="Rental-listings__filter-btn _btn--round-white">Op til 250 DKK</button>
-                        <button class="Rental-listings__filter-btn _btn--round-white">Øjeblikkelig booking</button>
-                        <button class="Rental-listings__filter-btn _btn--round-white">Flere filtre</button>
-
-                    </div>
-
-                    <p class="Rental-listings__covid-info">Gennemgå rejserestriktioner i forbindelse med COVID-19, inden du booker.</p>
-
-                    <button class="Rental-listings__language-settings-btn _btn--round-white">Vis på originalsprog</button>
-
-                </article>
-
-                <div class="Rental-listings__card-container">
-
-                    <hr class="Rental-card__horizontal-line">
-
-                    <section class="Rental-card">
-
-                        <img class="Rental-card__img" src="https://picsum.photos/600/400" alt="Rental photos" class="Rental-card__img">
-
-                        <article class="Rental-card__article">
-
-                            <div class="Rental-card__titles-wrapper">
-
-                                <h3 class="Rental-card__pre-title">Privat værelse i Schnelsen</h3>
-                                <i class="far fa-heart Rental-card__heart-icon"></i>
-                                <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
-
-                                <hr class="Rental-card__horizontal-line_short">
-
-                                <p class="Rental-card__info">1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse</p>
-
-                            </div>
-
-                            <div class="reviews-and-price-wrapper">
-
-                                <div class="Rental-card__reviews-wrapper">
-                                    <i class="fas fa-star Rental-card__star"></i>
-                                    <p class="Rental-card__reviews-p">
-                                        <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
-                                    </p>
-                                </div>
-
-                                <div class="Rental-card__price-wrapper">
-                                    <h2 class="Rental-card__price-daily">
-                                        <span class="_font-weight-bold _font-size-large">202 DKK</span> / nat
-                                    </h2>
-                                    <p class="Rental-card__price-total"></p>
-                                </div>
-                            </div>
-
-                        </article>
-                    </section>
-
-                    <hr class="Rental-card__horizontal-line">
-
-                    <section class="Rental-card">
-
-                        <img class="Rental-card__img" src="https://picsum.photos/600/400" alt="Rental photos" class="Rental-card__img">
-
-                        <article class="Rental-card__article">
-
-                            <div class="Rental-card__titles-wrapper">
-
-                                <h3 class="Rental-card__pre-title">Privat værelse i Schnelsen</h3>
-                                <i class="far fa-heart Rental-card__heart-icon"></i>
-                                <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
-
-                                <hr class="Rental-card__horizontal-line_short">
-
-                                <p class="Rental-card__info">1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse</p>
-
-                            </div>
-
-                            <div class="reviews-and-price-wrapper">
-
-                                <div class="Rental-card__reviews-wrapper">
-                                    <i class="fas fa-star Rental-card__star"></i>
-                                    <p class="Rental-card__reviews-p">
-                                        <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
-                                    </p>
-                                </div>
-
-                                <div class="Rental-card__price-wrapper">
-                                    <h2 class="Rental-card__price-daily">
-                                        <span class="_font-weight-bold _font-size-large">202 DKK</span> / nat
-                                    </h2>
-                                    <p class="Rental-card__price-total"></p>
-                                </div>
-                            </div>
-
-                        </article>
-                    </section>
-
-                    <hr class="Rental-card__horizontal-line">
-
-                    <section class="Rental-card">
-
-                        <img class="Rental-card__img" src="https://picsum.photos/600/400" alt="Rental photos" class="Rental-card__img">
-
-                        <article class="Rental-card__article">
-
-                            <div class="Rental-card__titles-wrapper">
-
-                                <h3 class="Rental-card__pre-title">Privat værelse i Schnelsen</h3>
-                                <i class="far fa-heart Rental-card__heart-icon"></i>
-                                <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
-
-                                <hr class="Rental-card__horizontal-line_short">
-
-                                <p class="Rental-card__info">1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse</p>
-
-                            </div>
-
-                            <div class="reviews-and-price-wrapper">
-
-                                <div class="Rental-card__reviews-wrapper">
-                                    <i class="fas fa-star Rental-card__star"></i>
-                                    <p class="Rental-card__reviews-p">
-                                        <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
-                                    </p>
-                                </div>
-
-                                <div class="Rental-card__price-wrapper">
-                                    <h2 class="Rental-card__price-daily">
-                                        <span class="_font-weight-bold _font-size-large">202 DKK</span> / nat
-                                    </h2>
-                                    <p class="Rental-card__price-total"></p>
-                                </div>
-                            </div>
-
-                        </article>
-                    </section>
-
-                    <hr class="Rental-card__horizontal-line">
-
-                    <section class="Rental-card">
-
-                        <img class="Rental-card__img" src="https://picsum.photos/600/400" alt="Rental photos" class="Rental-card__img">
-
-                        <article class="Rental-card__article">
-
-                            <div class="Rental-card__titles-wrapper">
-
-                                <h3 class="Rental-card__pre-title">Privat værelse i Schnelsen</h3>
-                                <i class="far fa-heart Rental-card__heart-icon"></i>
-                                <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
-
-                                <hr class="Rental-card__horizontal-line_short">
-
-                                <p class="Rental-card__info">1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse</p>
-
-                            </div>
-
-                            <div class="reviews-and-price-wrapper">
-
-                                <div class="Rental-card__reviews-wrapper">
-                                    <i class="fas fa-star Rental-card__star"></i>
-                                    <p class="Rental-card__reviews-p">
-                                        <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
-                                    </p>
-                                </div>
-
-                                <div class="Rental-card__price-wrapper">
-                                    <h2 class="Rental-card__price-daily">
-                                        <span class="_font-weight-bold _font-size-large">202 DKK</span> / nat
-                                    </h2>
-                                    <p class="Rental-card__price-total"></p>
-                                </div>
-                            </div>
-
-                        </article>
-                    </section>
-
-                    <hr class="Rental-card__horizontal-line">
-
-                    <section class="Rental-card">
-
-                        <img class="Rental-card__img" src="https://picsum.photos/600/400" alt="Rental photos" class="Rental-card__img">
-
-                        <article class="Rental-card__article">
-
-                            <div class="Rental-card__titles-wrapper">
-
-                                <h3 class="Rental-card__pre-title">Privat værelse i Schnelsen</h3>
-                                <i class="far fa-heart Rental-card__heart-icon"></i>
-                                <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
-
-                                <hr class="Rental-card__horizontal-line_short">
-
-                                <p class="Rental-card__info">1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse</p>
-
-                            </div>
-
-                            <div class="reviews-and-price-wrapper">
-
-                                <div class="Rental-card__reviews-wrapper">
-                                    <i class="fas fa-star Rental-card__star"></i>
-                                    <p class="Rental-card__reviews-p">
-                                        <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
-                                    </p>
-                                </div>
-
-                                <div class="Rental-card__price-wrapper">
-                                    <h2 class="Rental-card__price-daily">
-                                        <span class="_font-weight-bold _font-size-large">202 DKK</span> / nat
-                                    </h2>
-                                    <p class="Rental-card__price-total"></p>
-                                </div>
-                            </div>
-
-                        </article>
-                    </section>
-
-                    <hr class="Rental-card__horizontal-line">
-
-                </div>
-
+              </article>
             </section>
 
-            <aside class="Map">
-                <iframe class="Map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144005.6547253526!2d11.941221275875654!3d55.67006369640705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525fc995012f29%3A0xa00afcc1d507710!2s4000%20Roskilde!5e0!3m2!1sda!2sdk!4v1630915476725!5m2!1sda!2sdk"
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
-                
-                    <div class="Map-menu">
+            <hr class="Rental-card__horizontal-line" />
 
-                        <button class="Map-menu__btn-left">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
+            <section class="Rental-card">
+              <img
+                class="Rental-card__img"
+                src="https://picsum.photos/600/400"
+                alt="Rental photos"
+                class="Rental-card__img"
+              />
 
-                        <button class="btn-search-map">
-                            <input type="Map-menu__checkbox">
-                            Søg, når jeg bevæger kortet
-                        </button>
+              <article class="Rental-card__article">
+                <div class="Rental-card__titles-wrapper">
+                  <h3 class="Rental-card__pre-title">
+                    Privat værelse i Schnelsen
+                  </h3>
+                  <i class="far fa-heart Rental-card__heart-icon"></i>
+                  <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
 
-                        <button class="Map-menu__btn-zooms">
-                            <i class="fas fa-plus"></i>
-                            <i class="fas fa-minus"></i>
-                        </button>
+                  <hr class="Rental-card__horizontal-line_short" />
 
-                    </div>
-                </iframe>
-            </aside>
+                  <p class="Rental-card__info">
+                    1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse
+                  </p>
+                </div>
 
-        </div>
+                <div class="reviews-and-price-wrapper">
+                  <div class="Rental-card__reviews-wrapper">
+                    <i class="fas fa-star Rental-card__star"></i>
+                    <p class="Rental-card__reviews-p">
+                      <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
+                    </p>
+                  </div>
 
+                  <div class="Rental-card__price-wrapper">
+                    <h2 class="Rental-card__price-daily">
+                      <span class="_font-weight-bold _font-size-large"
+                        >202 DKK</span
+                      >
+                      / nat
+                    </h2>
+                    <p class="Rental-card__price-total"></p>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <hr class="Rental-card__horizontal-line" />
+
+            <section class="Rental-card">
+              <img
+                class="Rental-card__img"
+                src="https://picsum.photos/600/400"
+                alt="Rental photos"
+                class="Rental-card__img"
+              />
+
+              <article class="Rental-card__article">
+                <div class="Rental-card__titles-wrapper">
+                  <h3 class="Rental-card__pre-title">
+                    Privat værelse i Schnelsen
+                  </h3>
+                  <i class="far fa-heart Rental-card__heart-icon"></i>
+                  <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
+
+                  <hr class="Rental-card__horizontal-line_short" />
+
+                  <p class="Rental-card__info">
+                    1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse
+                  </p>
+                </div>
+
+                <div class="reviews-and-price-wrapper">
+                  <div class="Rental-card__reviews-wrapper">
+                    <i class="fas fa-star Rental-card__star"></i>
+                    <p class="Rental-card__reviews-p">
+                      <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
+                    </p>
+                  </div>
+
+                  <div class="Rental-card__price-wrapper">
+                    <h2 class="Rental-card__price-daily">
+                      <span class="_font-weight-bold _font-size-large"
+                        >202 DKK</span
+                      >
+                      / nat
+                    </h2>
+                    <p class="Rental-card__price-total"></p>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <hr class="Rental-card__horizontal-line" />
+
+            <section class="Rental-card">
+              <img
+                class="Rental-card__img"
+                src="https://picsum.photos/600/400"
+                alt="Rental photos"
+                class="Rental-card__img"
+              />
+
+              <article class="Rental-card__article">
+                <div class="Rental-card__titles-wrapper">
+                  <h3 class="Rental-card__pre-title">
+                    Privat værelse i Schnelsen
+                  </h3>
+                  <i class="far fa-heart Rental-card__heart-icon"></i>
+                  <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
+
+                  <hr class="Rental-card__horizontal-line_short" />
+
+                  <p class="Rental-card__info">
+                    1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse
+                  </p>
+                </div>
+
+                <div class="reviews-and-price-wrapper">
+                  <div class="Rental-card__reviews-wrapper">
+                    <i class="fas fa-star Rental-card__star"></i>
+                    <p class="Rental-card__reviews-p">
+                      <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
+                    </p>
+                  </div>
+
+                  <div class="Rental-card__price-wrapper">
+                    <h2 class="Rental-card__price-daily">
+                      <span class="_font-weight-bold _font-size-large"
+                        >202 DKK</span
+                      >
+                      / nat
+                    </h2>
+                    <p class="Rental-card__price-total"></p>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <hr class="Rental-card__horizontal-line" />
+
+            <section class="Rental-card">
+              <img
+                class="Rental-card__img"
+                src="https://picsum.photos/600/400"
+                alt="Rental photos"
+                class="Rental-card__img"
+              />
+
+              <article class="Rental-card__article">
+                <div class="Rental-card__titles-wrapper">
+                  <h3 class="Rental-card__pre-title">
+                    Privat værelse i Schnelsen
+                  </h3>
+                  <i class="far fa-heart Rental-card__heart-icon"></i>
+                  <h2 class="Rental-card__title">Hamburg Schnelsen</h2>
+
+                  <hr class="Rental-card__horizontal-line_short" />
+
+                  <p class="Rental-card__info">
+                    1 gæst · 1 soveværelse · 1 seng · 1 fælles badeværelse
+                  </p>
+                </div>
+
+                <div class="reviews-and-price-wrapper">
+                  <div class="Rental-card__reviews-wrapper">
+                    <i class="fas fa-star Rental-card__star"></i>
+                    <p class="Rental-card__reviews-p">
+                      <span class="_font-weight-bold"> 4,87 </span> (61 omtaler)
+                    </p>
+                  </div>
+
+                  <div class="Rental-card__price-wrapper">
+                    <h2 class="Rental-card__price-daily">
+                      <span class="_font-weight-bold _font-size-large"
+                        >202 DKK</span
+                      >
+                      / nat
+                    </h2>
+                    <p class="Rental-card__price-total"></p>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <hr class="Rental-card__horizontal-line" />
+          </div>
+        </section>
+
+        <aside class="Map">
+          <iframe
+            class="Map__iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144005.6547253526!2d11.941221275875654!3d55.67006369640705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525fc995012f29%3A0xa00afcc1d507710!2s4000%20Roskilde!5e0!3m2!1sda!2sdk!4v1630915476725!5m2!1sda!2sdk"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+            <div class="Map-menu">
+              <button class="Map-menu__btn-left">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+
+              <button class="btn-search-map">
+                <input type="Map-menu__checkbox" />
+                Søg, når jeg bevæger kortet
+              </button>
+
+              <button class="Map-menu__btn-zooms">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+          </iframe>
+        </aside>
+      </div>
     </main>
+    <script src="./js/filters.js"></script>
     <script src="./js/handle-card-production.js"></script>
-</body>
-
+  </body>
 </html>
