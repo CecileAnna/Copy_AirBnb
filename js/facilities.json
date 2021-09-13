@@ -2,33 +2,33 @@
 
     "total-facilities": 8,
     "facilities": [{
-            "icon-class": "fa-chromecast",
+            "icon_class": "fa-chromecast",
             "text": "Chromecast og Tv"
         },
         {
-            "icon-class": "fas fa-drumstick-bite",
+            "icon_class": "fas fa-drumstick-bite",
             "text": "Kylling"
         }, {
-            "icon-class": "fa-couch",
+            "icon_class": "fa-couch",
             "text": "Sofa"
         },
         {
-            "icon-class": "fa-swimmer",
+            "icon_class": "fa-swimmer",
             "text": "Svømmebassin"
 
         }, {
-            "icon-class": "fa-box-tissue",
+            "icon_class": "fa-box-tissue",
             "text": "Papirservietter"
         },
         {
-            "icon-class": "fa-traffic-light",
+            "icon_class": "fa-traffic-light",
             "text": "Lyskryds i nærheden"
         }, {
-            "icon-class": "fa-bed",
+            "icon_class": "fa-bed",
             "text": "Enkelt seng"
         },
         {
-            "icon-class": "fa-toilet-paper",
+            "icon_class": "fa-toilet-paper",
             "text": "Toiletpapir"
 
         }

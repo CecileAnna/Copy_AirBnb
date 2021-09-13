@@ -5,10 +5,10 @@
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "236 DKK",
-            "price-total": "944 DKK",
+            "price_daily": "236 DKK",
+            "price_total": "944 DKK",
             "reviews": 547,
-            "review-average": 4.57
+            "review_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
@@ -16,10 +16,10 @@
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "536 DKK",
-            "price-total": "2144 DKK",
+            "price_daily": "536 DKK",
+            "price_total": "2144 DKK",
             "reviews": 768,
-            "review-average": 4.67
+            "review_average": 4.67
 
         }, {
             "type": "Privat værelse",
@@ -27,10 +27,10 @@
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "236 DKK",
-            "price-total": "944 DKK",
+            "price_daily": "236 DKK",
+            "price_total": "944 DKK",
             "reviews": 547,
-            "review-average": 4.57
+            "review_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
@@ -38,10 +38,10 @@
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "536 DKK",
-            "price-total": "2144 DKK",
+            "price_daily": "536 DKK",
+            "price_total": "2144 DKK",
             "reviews": 768,
-            "review-average": 4.67
+            "review_average": 4.67
 
         }, {
             "type": "Privat værelse",
@@ -49,10 +49,10 @@
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "236 DKK",
-            "price-total": "944 DKK",
+            "price_daily": "236 DKK",
+            "price_total": "944 DKK",
             "reviews": 547,
-            "review-average": 4.57
+            "review_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
@@ -60,10 +60,10 @@
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "536 DKK",
-            "price-total": "2144 DKK",
+            "price_daily": "536 DKK",
+            "price_total": "2144 DKK",
             "reviews": 768,
-            "review-average": 4.67
+            "review_average": 4.67
 
         }, {
             "type": "Privat værelse",
@@ -71,10 +71,10 @@
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "236 DKK",
-            "price-total": "944 DKK",
+            "price_daily": "236 DKK",
+            "price_total": "944 DKK",
             "reviews": 547,
-            "review-average": 4.57
+            "review_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
@@ -82,10 +82,10 @@
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
-            "price-daily": "536 DKK",
-            "price-total": "2144 DKK",
+            "price_daily": "536 DKK",
+            "price_total": "2144 DKK",
             "reviews": 768,
-            "review-average": 4.67
+            "review_average": 4.67
 
         }
 
