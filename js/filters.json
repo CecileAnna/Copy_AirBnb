@@ -1,7 +1,13 @@
 {
-    "available-listings": 71,
-    "dates": "22.sep. - 26.sep.",
-    "guests": 1,
-    "location": "Germany",
-    "filters": ["Gratis annullering", "Boligtype", "Op til 250 DKK", "Øjeblikkelig booking", "Flere filtre"]
+  "availableListings": 271,
+  "dates": "22.sep. - 26.sep.",
+  "guests": 1,
+  "location": "Germany",
+  "filters": [
+    "Gratis annullering",
+    "Boligtype",
+    "Op til 250 DKK",
+    "Øjeblikkelig booking",
+    "Flere filtre"
+  ]
 }

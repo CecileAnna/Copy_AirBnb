@@ -1,15 +1,16 @@
 let filters = document.querySelector(".Rental-listings__search-intro");
 fetch("./js/filters.json")
   .then((response) => {
+    // if (!response.ok) {
+    //   throw new Error('Der opstod en farlig fejl!');
+    // }
     return response.json();
   })
   .then((filterData) => {
-    console.log(filterData);
-  });
-
-filters.innerHTML = `
+    console.log("FilterData: " + filterData);
+    filters.innerHTML = `
                     <h3 class="Rental-listings__date-and-guests">
-                      71 · ophold 22.sep. - 26.sep. · 1 gæst
+                      ${filterData.availableListings} · ophold ${filterData.dates} · 1 gæst
                     </h3>
                     <h2 class="Rental-listings__search-title">
                       Ophold i det valgte kortområde
@@ -45,3 +46,7 @@ filters.innerHTML = `
                     </button>
 
 `;
+  });
+// .catch((error) => {
+//   console.log(error.message);
+// });
