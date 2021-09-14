@@ -71,7 +71,7 @@
     object-fit: cover;
     width: 50%;
     height: 100%;
-    border-radius: 15%;
+    border-radius: 20%;
 }
 
 .Rental-card__article {
@@ -131,10 +131,18 @@
 
 .Rental-card__price-wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: right;
 }
 
 .Rental-card__price-daily {
     font-size: 1rem;
+}
+
+.Rental-card__price-total {
+    font-size: 0.75rem;
+    color: gray;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
 }

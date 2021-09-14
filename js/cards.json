@@ -8,84 +8,84 @@
             "price_daily": "236 DKK",
             "price_total": "944 DKK",
             "reviews": 547,
-            "review_average": 4.57
+            "reviews_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
-            "img": "https://picsum.photos/500/400",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "536 DKK",
             "price_total": "2144 DKK",
             "reviews": 768,
-            "review_average": 4.67
+            "reviews_average": 4.67
 
         }, {
             "type": "Privat værelse",
-            "img": "https://picsum.photos/700/400",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "236 DKK",
             "price_total": "944 DKK",
             "reviews": 547,
-            "review_average": 4.57
+            "reviews_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
-            "img": "https://picsum.photos/600/500",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "536 DKK",
             "price_total": "2144 DKK",
             "reviews": 768,
-            "review_average": 4.67
+            "reviews_average": 4.67
 
         }, {
             "type": "Privat værelse",
-            "img": "https://picsum.photos/600/350",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "236 DKK",
             "price_total": "944 DKK",
             "reviews": 547,
-            "review_average": 4.57
+            "reviews_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
-            "img": "https://picsum.photos/600/550",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "536 DKK",
             "price_total": "2144 DKK",
             "reviews": 768,
-            "review_average": 4.67
+            "reviews_average": 4.67
 
         }, {
             "type": "Privat værelse",
-            "img": "https://picsum.photos/650/400",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Ruhiges Zimmer am Rande vom Schleswiger Wald",
             "facilities": ["1 gæst", "1 soveværelse", "1 seng", "1.5 delte bade", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "236 DKK",
             "price_total": "944 DKK",
             "reviews": 547,
-            "review_average": 4.57
+            "reviews_average": 4.57
         },
         {
             "type": "Hel(t) beboelseshus",
-            "img": "https://picsum.photos/800/600",
+            "img": "https://picsum.photos/600/400",
             "location": "Schleswig",
             "title": "Villa Borlik",
             "facilities": ["5 gæster", "2 soveværelser", "4 seng", "1 badeværelse", "Køkken", "Trådløs internet", "Gratis parkering", "Varme"],
             "price_daily": "536 DKK",
             "price_total": "2144 DKK",
             "reviews": 768,
-            "review_average": 4.67
+            "reviews_average": 4.67
 
         }
 
